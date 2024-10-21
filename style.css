@@ -3,3 +3,97 @@ html, body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.portfolin {
+    width: 100%;
+    height: 700px;
+    padding-top: 1%;
+    background-color: #f4f2ee;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 1%;
+}
+
+.portfolin > .main > .mainProfile {
+    width: 850px;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #dfdeda;
+    margin-bottom: 2%;
+}
+
+
+.portfolin > .main > .mainProfile > .banner {
+    width: 100%;
+    height: 200px;
+    background-image: url(assets/images/linkedinbg.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.portfolin > .main > .mainProfile > .profile {
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/images/linkedinprofile.jpg);
+    background-size: 100% 100%;
+    border-radius: 100%;
+    border: 4px solid #FFF;
+    position: relative;
+    margin-top: -13%;
+    margin-left: 3%;
+}
+
+.portfolin > .main > .mainProfile > .about {
+    padding: 3%;
+    margin-bottom: 2%;
+}
+
+.portfolin > .main > .mainProfile > .about > .name {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.portfolin > .main > .mainProfile > .about > span:nth-of-type(2) {
+    display: block;
+    letter-spacing: 0.5px;
+    margin-bottom: 2%;
+}
+
+.portfolin > .main > .mainProfile > .about > a > .mainBtn {
+    padding: 1% 2% 1% 2%;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
+    color: #FFF;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+
+.portfolin > .main > .mainProfile > .about > a > .btn {
+    padding: 1% 2% 1% 2%;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FFF;
+    color: #0a66c2;
+    border: 1px solid #0a66c2;
+    border-radius: 15px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+
+.portfolin > .main > .mainProfile > .about > a > .mainBtn:hover {
+    background-color: #004182;
+}
+
+.portfolin > .main > .mainProfile > .about > a > .btn:hover {
+    box-shadow: inset 0 0 2px #004182;
+    background-color: #e3f1f3;
+}
