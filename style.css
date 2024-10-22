@@ -100,7 +100,7 @@ html, body {
 
 .portfolin > .main > .mainStats {
     width: 850px;
-    height: 555px;
+    height: 620px;
     background-color: #FFF;
     border-radius: 10px;
     border: 1px solid #dfdeda;
@@ -132,15 +132,64 @@ html, body {
     font-weight: 500;
 }
 
-.portfolin > .main > .mainStats > div {
+.portfolin > .main > .mainStats > .mainEducation {
     position: relative;
-    top: 7%;
+    top: 8%;
     left: 3%;
+}
+
+.portfolin > .main > .mainStats > .mainEducation > .education {
+    display: flex;
+    gap: 1%;
+}
+
+.portfolin > .main > .mainStats > .mainEducation > .education > div:nth-of-type(2) > span:nth-of-type(1) {
+    font-weight: 500;
+}
+
+.portfolin > .main > .mainStats > .mainEducation > .education > div:nth-of-type(2) > span:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.portfolin > .main > .mainStats > .mainEducation > .education > div:nth-of-type(2) > span:nth-of-type(3) {
+    font-size: 14px;
+    color: #b1b1b1;
+}
+
+.portfolin > .main > .mainStats > .mainEducation > hr {
+    margin: 2% 0 2% 0;
+    width: 94%;
+    color: #ddbaba;
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.portfolin > .main > .mainStats > .mainEducation > .education > div:nth-of-type(1) > img {
+    width: 50px;
+    height: 50px;
+}
+
+.portfolin > .main > .mainStats > .mainEducation > .education > div:nth-of-type(2) > a > img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #EEE;
+    border-radius: 10px;
 }
 
 .portfolin > .aside > .asideMain {
     width: 300px;
-    height: 100%;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 10px 10px;
+    border: 1px solid #dfdeda;
+    padding-top: 20px;
+    margin-bottom: 7%;
+}
+
+.portfolin > .aside > .underAside {
+    width: 300px;
+    height: 26px;
     background-color: #FFF;
     border-radius: 10px 10px 0 0;
     border: 1px solid #dfdeda;
@@ -148,8 +197,6 @@ html, body {
 }
 
 .portfolin > .aside > .asideMain > .asideMainTitle {
-    position: relative;
-    top: 3%;
     margin-left: 8%;
     font-size: 20px;
     font-weight: 500;   
@@ -157,7 +204,7 @@ html, body {
 
 .portfolin > .aside > .asideMain > .stackContect {
     position: relative;
-    top: 50px;
+    top: 20px;
     margin-left: 10%;
     font-size: 16px;
     font-weight: 300;
