@@ -10,7 +10,6 @@ html, body {
     padding-top: 1%;
     background-color: #f4f2ee;
     display: flex;
-    align-items: top;
     justify-content: center;
     gap: 1%;
 }
